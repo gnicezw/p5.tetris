@@ -17,7 +17,7 @@ function setup() {
   createCanvas(cellSize * (cols + 6), cellSize * rows);
   frameRate(fps);
 
-  for (let i = 0; i < rows; i++) {
+  for (let i = 0; i < rows; i++) {  //drawing the tables for the game
     let row = [];
     for (let j = 0; j < cols; j++) {
       if (i === 0 || i === rows - 1 || j === 0 || j === cols - 1) {
